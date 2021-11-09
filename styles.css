@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+
+input[type=number], select, textarea{
+    font-family: 'Hahmlet', serif;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+ 
+h1 {
+    font-family: 'Hahmlet', serif;
+    font-size: 250%;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Hahmlet', serif;
+    text-align: left;
+}
+
+
+label {
+font-family: 'Hahmlet', serif;
+padding: 12px 12px 12px 0;
+display: inline-block;
+}
+
+
+input[type=button] {
+font-family: 'Hahmlet', serif;
+background-color: #04AA6D;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+float: right;
+}
+
+.container {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+
+.col-25 {
+float: left;
+width: 25%;
+margin-top: 6px;
+}
+
+.col-75 {
+float: left;
+width: 75%;
+margin-top: 6px;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.slidecontainer {
+width: 100%;
+}
+
+.slider {
+-webkit-appearance: none; 
+appearance: none;
+width: 100%; 
+height: 25px; 
+background: #d3d3d3; 
+outline: none; 
+opacity: 0.7; 
+transition: opacity .2s;
+}
+
+
+.slider:hover {
+opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none; 
+appearance: none;
+width: 25px; 
+height: 25px; 
+background: #04AA6D; 
+cursor: pointer; 
+}
+
+.slider::-moz-range-thumb {
+width: 25px; 
+height: 25px; 
+background: #04AA6D; 
+cursor: pointer; 
+}
+
+@media screen and (max-width: 600px) {
+.col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+}
+}
